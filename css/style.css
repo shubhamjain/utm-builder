@@ -1,0 +1,174 @@
+@import url("/css/awesomplete.css");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h5 {
+  border-bottom: 1px solid;
+}
+
+html, body {
+  min-height: 100%
+}
+
+body {
+  font-family: Roboto;
+  background: #f4f5f6;
+}
+
+.container {
+  padding: 0 30px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+.header {
+  height: 60px;
+  line-height: 60px;
+  font-size: 14px;
+  text-transform: uppercase;
+  background: #1f2532;
+  color: white;
+  /*border-bottom: 1px solid rgba(95, 102, 120, 0.2);*/
+}
+
+.footer {
+  height: 62px;
+  line-height: 60px;
+  font-size: 14px;
+  background: #1f2532;
+  color: white;
+  bottom: 0px;
+  position: fixed;
+  width: 100%;
+}
+
+.header a {
+  color: white;
+}
+
+.footer-link {
+  color: #FFFFFF !important;
+}
+
+
+.form {
+  padding: 60px 0 20px;
+  background: white;
+}
+
+.question {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.url-preview {
+  position: relative;
+  margin-top: 40px;
+}
+
+.url-preview:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 10px;
+  height: 1px;
+  width: 100%;
+  z-index: 0;
+  background: rgba(95, 102, 120, 0.2);
+}
+
+.url-preview__heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  background: white;
+  width: 150px;;
+  margin: 0 auto 30px;
+  position: relative;
+  z-index: 2;
+}
+
+.content {
+  padding: 60px 0;
+}
+
+.row {
+  margin-top: 40px;
+}
+
+.steps {
+  display: block;
+  font-size: 50px;
+  color: rgba(95,102,120,0.2);
+  line-height: 60px;
+  margin-bottom: 10px;
+}
+
+/* Share */
+.share,
+.share-list,
+.share-list a {
+  position: relative;
+  margin-bottom: 0px;
+  text-decoration: none;
+}
+
+.share-item {
+  display: inline-block;
+  margin: 1.0rem .1rem;
+}
+.share-icon {
+  background-color: #9b4dca;
+  border-radius: .4rem;
+  color: #fff;
+  display: block;
+  font-size: 1.5rem;
+  height: 2.2rem;
+  line-height: 2.2rem;
+  text-align: center;
+  width: 5.0rem;
+}
+
+@media (min-width: 40.0rem) {
+  .only-mobile {
+    display: none;
+  }
+}
+
+#utm_code {
+  width: 85%;
+  border-radius: 0px;
+  border: 1px solid rgba(181, 181, 181, 0.84);
+}
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+  width: 1em;
+  height: 1em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #4691f6;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
+
+
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; overflow: auto; }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }
+.autocomplete-group { padding: 2px 5px; }
+.autocomplete-group strong { display: block; border-bottom: 1px solid #000; }
